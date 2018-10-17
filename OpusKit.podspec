@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.name         = "OpusKit"
   s.version      = "0.0.2"
-s.summary      = "OpusKit is a simple way to use the opus decode and encode functions from swift."
+s.summary      = "Opus decode and encode functions from swift."
 
   s.description  = <<-DESC
 OpusKit is a simple way to use the opus decode and encode functions from swift.
@@ -20,15 +20,19 @@ OpusKit is a simple way to use the opus decode and encode functions from swift.
   s.homepage     = "https://github.com/robertveringa89/OpusKit"
 
 
-  s.license      = "MIT"
+s.license  = { :type => 'public domain', :text => <<-LICENSE
+Public Domain License
+The OpusKit project is in the public domain.
+LICENSE
+}
 
   s.author    = "Robert Veringa"
 
 
-   s.platform     = :ios, "11.0"
+s.ios.deployment_target = "12.0"
 
   s.source       = { :git => "https://github.com/robertveringa89/OpusKit.git", :tag => "#{s.version}" }
-    s.source_files  = '/*.{h,m,swift}'
-
+    s.source_files  = 'OpusKit/Classes/*.{h,m,swift}'
+s.source_files  = 'OpusKit/lib/*.{h,m,swift}'
   s.swift_version = "4.2"
 end
