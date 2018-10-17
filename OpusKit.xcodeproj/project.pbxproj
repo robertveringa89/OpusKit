@@ -65,7 +65,6 @@
 				A3B510362177624600152584 /* OpusKit.h */,
 				A3B510372177624600152584 /* Info.plist */,
 				A3B5107521776A9D00152584 /* OpusKit.podspec */,
-				A3B510402177627300152584 /* lib */,
 			);
 			path = OpusKit;
 			sourceTree = "<group>";
@@ -85,6 +84,7 @@
 		A3F6F324217772590042BD34 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A3B510402177627300152584 /* lib */,
 				A3B5103E2177626200152584 /* OpusController.swift */,
 			);
 			path = Classes;
