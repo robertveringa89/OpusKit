@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name                      = "OpusKit"
-    s.version                   = "0.0.3"
+    s.version                   = "0.0.4"
     s.summary                   = "OpusKit is a simple way to use the opus decode and encode functions from swift."
     s.homepage                  = "https://github.com/robertveringa89/OpusKit"
     s.license                   = 'MIT'
