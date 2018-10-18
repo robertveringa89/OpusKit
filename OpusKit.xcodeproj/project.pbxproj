@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3B510382177624600152584 /* OpusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B510362177624600152584 /* OpusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3B5103F2177626200152584 /* OpusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B5103E2177626200152584 /* OpusController.swift */; };
+		A3B5103F2177626200152584 /* OpusKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B5103E2177626200152584 /* OpusKit.swift */; };
 		A3B510462177627F00152584 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B510412177627E00152584 /* opus_defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3B510472177627F00152584 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B510422177627E00152584 /* libopus.a */; };
 		A3B510482177627F00152584 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B510432177627F00152584 /* opus_multistream.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,7 +21,7 @@
 		A3B510332177624600152584 /* OpusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpusKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B510362177624600152584 /* OpusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpusKit.h; sourceTree = "<group>"; };
 		A3B510372177624600152584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3B5103E2177626200152584 /* OpusController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpusController.swift; sourceTree = "<group>"; };
+		A3B5103E2177626200152584 /* OpusKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpusKit.swift; sourceTree = "<group>"; };
 		A3B510412177627E00152584 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
 		A3B510422177627E00152584 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
 		A3B510432177627F00152584 /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		A3B510402177627300152584 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				A3B5103E2177626200152584 /* OpusController.swift */,
+				A3B5103E2177626200152584 /* OpusKit.swift */,
 				A3B510422177627E00152584 /* libopus.a */,
 				A3B510412177627E00152584 /* opus_defines.h */,
 				A3B510432177627F00152584 /* opus_multistream.h */,
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3B5103F2177626200152584 /* OpusController.swift in Sources */,
+				A3B5103F2177626200152584 /* OpusKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
